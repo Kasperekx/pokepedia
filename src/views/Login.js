@@ -9,7 +9,7 @@ const Login = () => {
     const formSubmit = () => {
         if ( userName === "admin" && password === "admin" ) {
             localStorage.setItem("authKey", "exampleKey123");
-            navigate("/");
+            navigate("/pokepedia");
         }
     };
 

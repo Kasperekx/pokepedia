@@ -10,9 +10,9 @@ const Router = () => {
   return (
     <BrowserRouter >
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/pokepedia/login" element={<Login />} />
         <Route path="/pokepedia" element={token ? <Pokedex /> : <Login />} />
-        <Route path="/pokemon/:id" element={<Pokemon />} />
+        <Route path="/pokepedia/pokemon/:id" element={<Pokemon />} />
       </Routes>
     </BrowserRouter>
   );
