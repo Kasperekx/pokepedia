@@ -22,14 +22,14 @@ const Login = () => {
                     <input
                         className="block mb-4 border-2 border-gray-100 p-3 rounded mx-auto"
                         type="text"
-                        placeholder="Username"
+                        placeholder="Username here"
                         value={userName}
                         onChange={(e) => setUserName(e.target.value)}
                     />
                     <input
                         className="block mb-4 border-2 border-gray-100 p-3 rounded mx-auto"
                         type="text"
-                        placeholder="Password"
+                        placeholder="Password here"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
