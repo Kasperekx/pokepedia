@@ -8,10 +8,10 @@ import { token } from "../utils/AuthServices";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={token ? <Pokedex /> : <Login />} />
+        <Route path="/pokepedia" element={token ? <Pokedex /> : <Login />} />
         <Route path="/pokemon/:id" element={<Pokemon />} />
       </Routes>
     </BrowserRouter>
