@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokepedia/static/css/main.9abe891e.css",
+    "main.js": "/pokepedia/static/js/main.7e7bf81a.js",
+    "index.html": "/pokepedia/index.html",
+    "main.9abe891e.css.map": "/pokepedia/static/css/main.9abe891e.css.map",
+    "main.7e7bf81a.js.map": "/pokepedia/static/js/main.7e7bf81a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9abe891e.css",
+    "static/js/main.7e7bf81a.js"
+  ]
+}
